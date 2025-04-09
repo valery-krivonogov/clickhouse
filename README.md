@@ -25,7 +25,7 @@ services:
     container_name: clickhouse-server
     ports:
       - 9000:9000
-      - 18123:8123
+      - 8123:8123
     environment:
       - CLICKHOUSE_DB=my_database
       - CLICKHOUSE_DEFAULT_ACCESS_MANAGEMENT=1 
@@ -35,7 +35,6 @@ services:
       nofile:
         soft: 262144
         hard: 262144
-    network_mode: host
     cap_add:
       - SYS_NICE
       - NET_ADMIN
