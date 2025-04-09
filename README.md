@@ -92,20 +92,8 @@ Query id: 6617f207-e33f-45f8-8e52-874b3857dad6
 docker-desktop :)
 ```
 
-### Создание БД , наполнение небольшими тестовыми данными
-
-Реализация:<br>
-
-```
-docker-desktop :)
-```
-
-
 ### Импорт тестовой БД, нагрузочное тестирование
 Импортировать тестовую БД OnTime (https://clickhouse.com/docs/getting-started/example-datasets/ontime):<br>
-
-
-
 ```
 -- загрузка данных в файловую систему сервера (папка tmp) 
 root@5ce3ceb8e8a9:/# cd tmp
